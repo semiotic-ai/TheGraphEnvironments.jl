@@ -22,4 +22,5 @@ makedocs(;
 deploydocs(;
     repo="github.com/semiotic-ai/TheGraphEnvironments.jl",
     devbranch="main",
+    devurl="latest",
 )
