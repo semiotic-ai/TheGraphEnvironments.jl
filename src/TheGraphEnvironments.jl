@@ -1,5 +1,9 @@
+# Copyright 2022-, Semiotic AI, Inc.
+# SPDX-License-Identifier: Apache-2.0
+
 module TheGraphEnvironments
 
-# Write your package code here.
+include("constant.jl")
+include("contracts/contracts.jl")
 
 end

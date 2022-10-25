@@ -12,15 +12,16 @@ makedocs(;
         prettyurls=get(ENV, "CI", "false") == "true",
         canonical="https://semiotic-ai.github.io/TheGraphEnvironments.jl",
         edit_link="main",
-        assets=String[],
+        assets=String[]
     ),
     pages=[
         "Home" => "index.md",
-    ],
+        "API" => "api.md"
+    ]
 )
 
 deploydocs(;
     repo="github.com/semiotic-ai/TheGraphEnvironments.jl",
     devbranch="main",
-    devurl="latest",
+    devurl="latest"
 )
